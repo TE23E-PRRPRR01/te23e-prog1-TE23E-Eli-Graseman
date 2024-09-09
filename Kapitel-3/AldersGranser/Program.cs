@@ -8,12 +8,20 @@ Console.WriteLine("Ange din ålder");
 string dinÅlder = Console.ReadLine();
 int ålder = int.Parse(dinÅlder);
 
-if (ålder == >12) 
+if (ålder == 12) 
 {
-    System.Console.WriteLine("");
+    Console.WriteLine("Du börjar högstadiet");
 }
 
 if (ålder == 7)
+{
+    Console.WriteLine("Du börjar skolan påriktigt");
+}
+if (ålder == 64)
+{
+    Console.WriteLine("Du får nu gå i pension. Grattis!");
+}
+if (ålder >= 15 && ålder <= 18)  // åldersspann
 {
     
 }
